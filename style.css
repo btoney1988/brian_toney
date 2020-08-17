@@ -1,35 +1,7 @@
 body{
     background-color: rgb(4, 119, 56);
 }
-main{
-    padding: 3%;
-}
-.container {
-    text-align: center;
-    padding: 4%;
-    height: 400px;
-}
-.container-fluid img {
-    padding: 1%;
-    width: 50%;
-    height: 50%;
-}
-.about-me{
-    background-color: rgb(151, 1, 151);
-    padding: 3%;
-}
-h3{
-    color: white;
-}
-h5{
-    color: white;
-}
-p{
-    color: white;
-}
-.domino{
-    padding: 4%;
-}
+
 .contact{
     padding: 4%;
     height: 400px;
@@ -40,13 +12,13 @@ p{
     border-top-left-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
 }
-.contact-info{
+.graphic{
     margin-top:10%;
 }
-.contact-info img{
+.graphic img{
     margin-bottom: 15%;
 }
-.contact-info h2{
+.graphic h2{
     margin-bottom: 10%;
     color: white;
 }
@@ -56,15 +28,15 @@ p{
     border-top-right-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
 }
-.contact-form label{
+.contact-info label{
     font-weight:600;
 }
-.contact-form button{
+.contact-info button{
     background: rgb(151, 1, 151);
     color: #fff;
     font-weight: 600;
     width: 25%;
 }
-.contact-form button:focus{
+.contact-info button:focus{
     box-shadow:none;
 }
