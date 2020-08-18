@@ -1,34 +1,46 @@
 .nav-link{
     float: right;
 }
-body{
-    background-color: rgb(4, 119, 56);
-}
+body {
+    --stripe: lightgray;
+    --bg: gray;
+  
+    background: linear-gradient(135deg, var(--bg) 25%, transparent 25%) -50px 0,
+      linear-gradient(225deg, var(--bg) 25%, transparent 25%) -50px 0,
+      linear-gradient(315deg, var(--bg) 25%, transparent 25%),
+      linear-gradient(45deg, var(--bg) 25%, transparent 25%);
+    background-size: 100px 100px;
+    background-color: var(--stripe);
+  }
 .card{
-    margin-top: 4%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     background-color: darkgray;
 }
 .card-header{
     color: white;
-    background-color: rgb(151, 1, 151);
+    background-color: purple;
     padding: 1%;
     text-align: center;
     width: 100%;
 }
 .img-fluid{
-    width: 60%;
-    height: 60%;
+    width: 50%;
+    height: 50%;
     float: left;
     padding: 1%;
 }
 .img-responsive{
-    width: 45%;
     height: 45%;
+    width: 45%;
     padding: 2%;
 }
 .card-footer{
     margin: 0;
     text-align: center;
+    color: white;
+    background-color: purple;
+    width: 100%;
 }
 .contact-info{
     padding: 4%;
@@ -39,10 +51,10 @@ body{
     font-weight:600;
 }
 .contact-info button{
-    background: rgb(151, 1, 151);
+    background: green;
     color: #fff;
     font-weight: 600;
-    width: 100%;
+
 }
 .contact-info button:focus{
     box-shadow:none;
@@ -56,6 +68,10 @@ body{
     .img-responsive{
         width: 75%;
         height: 75%;
+    }
+    .img-fluid{
+        width: 60%;
+        height: 60%;
     }
 }
 
