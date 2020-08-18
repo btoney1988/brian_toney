@@ -1,26 +1,35 @@
 body{
     background-color: rgb(4, 119, 56);
 }
-
-.contact{
+.card{
+    margin-top: 4%;
+    background-color: darkgray;
+}
+.card-header{
+    color: white;
+    background-color: rgb(151, 1, 151);
+    padding: 1%;
+    text-align: center;
+}
+.card-image{
+    width: 10rem;
+    height: 10rem;
+    float: left;
+    padding: 1%;
+}
+.card-footer{
+    margin: 0;
+    text-align: center;
+}
+.contact-info{
     padding: 4%;
-    height: 400px;
+    height: auto;
 }
 .col-sm-3{
     background: rgb(151, 1, 151);
     padding: 4%;
     border-top-left-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
-}
-.graphic{
-    margin-top:10%;
-}
-.graphic img{
-    margin-bottom: 15%;
-}
-.graphic h2{
-    margin-bottom: 10%;
-    color: white;
 }
 .col-md-9{
     background: #fff;
@@ -35,8 +44,12 @@ body{
     background: rgb(151, 1, 151);
     color: #fff;
     font-weight: 600;
-    width: 25%;
+    width: 100%;
 }
 .contact-info button:focus{
     box-shadow:none;
 }
+.contact-info input{
+    width: 100%;
+}
+
