@@ -1,3 +1,6 @@
+.nav-link{
+    float: right;
+}
 body{
     background-color: rgb(4, 119, 56);
 }
@@ -10,12 +13,18 @@ body{
     background-color: rgb(151, 1, 151);
     padding: 1%;
     text-align: center;
+    width: 100%;
 }
-.card-image{
-    width: 10rem;
-    height: 10rem;
+.img-fluid{
+    width: 60%;
+    height: 60%;
     float: left;
     padding: 1%;
+}
+.img-responsive{
+    width: 45%;
+    height: 45%;
+    padding: 2%;
 }
 .card-footer{
     margin: 0;
@@ -24,18 +33,7 @@ body{
 .contact-info{
     padding: 4%;
     height: auto;
-}
-.col-sm-3{
-    background: rgb(151, 1, 151);
-    padding: 4%;
-    border-top-left-radius: 0.5rem;
-    border-bottom-left-radius: 0.5rem;
-}
-.col-md-9{
-    background: #fff;
-    padding: 3%;
-    border-top-right-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;
+    width: 100%;
 }
 .contact-info label{
     font-weight:600;
@@ -52,4 +50,13 @@ body{
 .contact-info input{
     width: 100%;
 }
+
+/* Whenscreen size is medium to extra small portfolio images will grow to 75% and stack on top of eachother. */
+@media only screen and (max-width: 768px) {
+    .img-responsive{
+        width: 75%;
+        height: 75%;
+    }
+}
+
 

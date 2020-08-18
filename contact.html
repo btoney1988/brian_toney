@@ -11,14 +11,14 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-xs navbar-dark bg-dark" style="width: auto;">
     <a class="navbar-brand" href="#">Brian Toney</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="width: auto;">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
           <a class="nav-link" href="index.html">About Me<span class="sr-only">(current)</span></a>
@@ -32,34 +32,54 @@
       </ul>
     </div>
   </nav>
-  <main class="container card" style="width: 40rem;">
+  <main class="container card" style="width: 80%;">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-xs-12" style="width: 100%;">
         <div class="card-header">
           <h1>Contact Brian</h1>
         </div>
         <div class="contact-info">
           <div class="form-group">
-            <label class="control-label col-sm-4" for="name">Name:</label>
-            <div class="col-sm-12">
-              <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
+            <div class="row">
+              <div class="col-md-12">
+                <label class="control-label" for="name">Name:</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
+              </div>
             </div>
           </div>
           <div class="form-group">
-            <label class="control-label col-sm-4" for="email">Email:</label>
-            <div class="col-sm-12">
-              <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            <div class="row">
+              <div class="col-md-12">
+                <label class="control-label" for="email">Email:</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+              </div>
             </div>
           </div>
           <div class="form-group">
-            <label class="control-label col-sm-4" for="message">Message:</label>
-            <div class="col-sm-12">
-              <textarea class="form-control" rows="5" id="message"></textarea>
+            <div class="row">
+              <div class="col-md-12">
+                <label class="control-label" for="message">Message:</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <textarea class="form-control" rows="5" id="message" placeholder="Enter message"></textarea>
+              </div>
             </div>
           </div>
           <div class="form-group">
-            <div class="col-sm-offset-4 col-sm-12">
-              <button type="submit" class="btn btn-default">Submit</button>
+            <div class="row">
+              <div class="col-md-12">
+                <button type="submit" class="btn btn-default">Submit</button>
+              </div>
             </div>
           </div>
           <div class="card-footer text-muted">
