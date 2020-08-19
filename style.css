@@ -16,6 +16,7 @@ body {
     margin-top: 2%;
     margin-bottom: 2%;
     background-color: darkgray;
+    width: 80%;
 }
 .card-header{
     color: white;
@@ -74,5 +75,11 @@ body {
         height: 60%;
     }
 }
+
+@media (max-width: 575.98px) { 
+    .card {
+        width: 100%;
+    }
+ }
 
 
