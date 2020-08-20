@@ -1,0 +1,65 @@
+body {
+    padding-top: 65px;
+    padding-bottom: 65px;
+    --stripe: lightgray;
+    --bg: gray;
+  
+    background: linear-gradient(135deg, var(--bg) 25%, transparent 50%) -100px 0,
+      linear-gradient(225deg, var(--bg) 25%, transparent 50%) -100px 0,
+      linear-gradient(315deg, var(--bg) 25%, transparent 25%),
+      linear-gradient(45deg, var(--bg) 25%, transparent 25%);
+    background-size: 100px 100px;
+    background-color: var(--stripe);
+}
+.nav-link {
+    float: right;
+}
+.card {
+    padding: 3%;
+    margin: 0%;
+    background-color: lightgray;
+}
+.card-header{
+    color: white;
+    background-color: purple;
+}
+.row {
+    margin: 0;
+}
+.float-left{
+    height: 8rem;
+    width: 8rem;
+    margin-right: 2%;
+}
+.img-thumbnail{
+    height: 15rem;
+    width: 15rem;
+    margin: 3%;
+}
+.btn {
+    color: white;
+    background-color: darkgreen;
+}
+.social-media{
+    list-style: none;
+}
+.footer {
+    margin-top: 4%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #343a40;
+}
+.fa {
+    padding: 5px;
+    font-size: 20px;
+    width: 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
