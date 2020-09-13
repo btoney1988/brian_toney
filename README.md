@@ -25,6 +25,3 @@
  * Professional Contact Page
   - ![image](https://user-images.githubusercontent.com/68873509/90904033-c0f66d00-e39c-11ea-8b7a-c97b98f2fa6f.png)
 
-
-
-
